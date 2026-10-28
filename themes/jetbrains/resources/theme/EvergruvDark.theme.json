@@ -1,0 +1,493 @@
+{
+  "name": "Evergruv Dark",
+  "dark": true,
+  "author": "georglauterbach (original VS Code theme); JetBrains port by Marcelo Carvalho",
+  "editorScheme": "EvergruvDark.xml",
+  "colors": {
+    "transparent": "#000000",
+    "backgroundDim": "#141617",
+    "background": "#1D2021",
+    "foreground": "#DDC7A1",
+    "foregroundMuted": "#928374",
+    "red": "#EA6962",
+    "orange": "#E78A4E",
+    "yellow": "#D8A657",
+    "yellowAlpha50": "#D8A65780",
+    "green": "#A9B665",
+    "blue": "#7DAEA3",
+    "purple": "#D3869B",
+    "selectionBackground": "#DDC7A140",
+    "selectionInactiveBackground": "#D8A65710"
+  },
+  "ui": {
+    "*": {
+      "background": "backgroundDim",
+      "foreground": "foreground",
+      "infoForeground": "blue",
+      "selectionBackground": {
+        "os.default": "selectionBackground",
+        "os.windows": "selectionBackground",
+        "os.mac": "selectionBackground"
+      },
+      "selectionForeground": {
+        "os.default": "foreground",
+        "os.windows": "foreground",
+        "os.mac": "foreground"
+      },
+      "selectionInactiveBackground": "selectionInactiveBackground",
+      "selectionBackgroundInactive": "selectionInactiveBackground",
+      "disabledBackground": "backgroundDim",
+      "inactiveBackground": "backgroundDim",
+      "disabledText": "foregroundMuted",
+      "disabledForeground": "foregroundMuted",
+      "inactiveForeground": "foregroundMuted",
+      "acceleratorForeground": "foreground",
+      "acceleratorSelectionForeground": "foreground",
+      "errorForeground": "red",
+      "borderColor": "background",
+      "disabledBorderColor": "background",
+      "focusColor": "backgroundDim",
+      "focusedBorderColor": "yellow",
+      "separatorColor": "background",
+      "arc": "5",
+      "underlineColor": "blue"
+    },
+    "ActionButton": {
+      "hoverBackground": "background",
+      "hoverBorderColor": "background",
+      "pressedBackground": "background",
+      "pressedBorderColor": "background"
+    },
+    "BookmarkIcon.background": "red",
+    "BookmarkMnemonicAssigned": {
+      "foreground": "foreground",
+      "background": "blue",
+      "borderColor": "blue"
+    },
+    "BookmarkMnemonicAvailable": {
+      "borderColor": "background",
+      "foreground": "foregroundMuted",
+      "background": "background"
+    },
+    "BookmarkMnemonicCurrent": {
+      "borderColor": "yellow",
+      "foreground": "foregroundMuted",
+      "background": "background"
+    },
+    "BookmarkMnemonicIcon": {
+      "foreground": "foregroundMuted",
+      "background": "background",
+      "borderColor": "yellow"
+    },
+    "Button": {
+      "foreground": "foregroundMuted",
+      "startBackground": "background",
+      "endBackground": "background",
+      "startBorderColor": "yellowAlpha50",
+      "endBorderColor": "yellowAlpha50",
+      "shadowColor": "backgroundDim",
+      "focusedBorderColor": "foregroundMuted",
+      "default": {
+        "foreground": "foreground",
+        "startBackground": "yellow",
+        "endBackground": "yellow",
+        "startBorderColor": "yellow",
+        "endBorderColor": "yellow",
+        "focusedBorderColor": "blue",
+        "focusColor": "yellow"
+      }
+    },
+    "Borders": {
+      "color": "background",
+      "ContrastBorderColor": "background"
+    },
+    "ComboBox": {
+      "nonEditableBackground": "background",
+      "background": "background",
+      "selectionBackground": "selectionBackground",
+      "ArrowButton": {
+        "iconColor": "foregroundMuted",
+        "disabledIconColor": "foregroundMuted",
+        "nonEditableBackground": "background",
+        "background": "background"
+      },
+      "modifiedItemForeground": "red"
+    },
+    "CompletionPopup": {
+      "background": "backgroundDim",
+      "selectionBackground": "selectionBackground",
+      "matchForeground": "yellow",
+      "selectionInactiveBackground": "selectionInactiveBackground"
+    },
+    "ComplexPopup": {
+      "Header": {
+        "background": "backgroundDim"
+      }
+    },
+    "Component": {
+      "errorFocusColor": "red",
+      "inactiveErrorFocusColor": "background",
+      "warningFocusColor": "yellow",
+      "inactiveWarningFocusColor": "background",
+      "focusColor": "yellow",
+      "borderColor": "yellowAlpha50",
+      "focusedBorderColor": "yellow",
+      "iconColor": "foreground",
+      "hoverIconColor": "foreground"
+    },
+    "Counter": {
+      "background": "background",
+      "foreground": "foregroundMuted"
+    },
+    "DefaultTabs": {
+      "underlineColor": "yellow",
+      "inactiveUnderlineColor": "yellowAlpha50",
+      "hoverBackground": "background"
+    },
+    "DragAndDrop": {
+      "areaForeground": "foregroundMuted",
+      "areaBackground": "background",
+      "areaBorderColor": "background"
+    },
+    "Editor": {
+      "background": "background",
+      "foreground": "foreground",
+      "SearchField": {
+        "background": "background"
+      },
+      "shortcutForeground": "yellow",
+      "ToolTip": {
+        "background": "background"
+      }
+    },
+    "EditorPane.inactiveBackground": "background",
+    "EditorTabs": {
+      "underlinedTabBackground": "background",
+      "background": "background",
+      "underlineColor": "red",
+      "underlineHeight": 2
+    },
+    "FileColor": {
+      "Yellow": "yellow",
+      "Green": "green",
+      "Blue": "blue",
+      "Violet": "purple",
+      "Orange": "orange",
+      "Rose": "red"
+    },
+    "GotItTooltip": {
+      "foreground": "foregroundMuted",
+      "background": "background",
+      "borderColor": "foregroundMuted",
+      "linkForeground": "blue",
+      "shortcutForeground": "blue"
+    },
+    "Label": {
+      "infoForeground": "blue",
+      "successForeground": "green",
+      "foreground": "foreground",
+      "errorForeground": "red"
+    },
+    "Lesson": {
+      "Tooltip.background": "background",
+      "Tooltip.spanBackground": "yellow",
+      "Tooltip.foreground": "foreground"
+    },
+    "Link": {
+      "activeForeground": "blue",
+      "hoverForeground": "blue",
+      "pressedForeground": "blue",
+      "visitedForeground": "blue"
+    },
+    "List": {
+      "selectionBackground": "background",
+      "selectionForeground": "foreground",
+      "selectionInactiveBackground": "selectionInactiveBackground",
+      "selectionInactiveForeground": "foreground",
+      "background": "backgroundDim"
+    },
+    "MainToolbar": {
+      "inactiveBackground": "background",
+      "background": "backgroundDim",
+      "Dropdown": {
+        "hoverBackground": "background"
+      }
+    },
+    "MemoryIndicator": {
+      "allocatedBackground": "yellow",
+      "usedBackground": "yellow"
+    },
+    "Notification": {
+      "background": "background",
+      "borderColor": "foregroundMuted",
+      "errorForeground": "foregroundMuted",
+      "errorBackground": "background",
+      "errorBorderColor": "red",
+      "MoreButton": {
+        "background": "background",
+        "innerBorderColor": "foregroundMuted"
+      },
+      "ToolWindow": {
+        "informativeForeground": "foregroundMuted",
+        "informativeBackground": "background",
+        "informativeBorderColor": "yellowAlpha50",
+        "warningForeground": "foregroundMuted",
+        "warningBackground": "red",
+        "warningBorderColor": "red",
+        "errorForeground": "foregroundMuted",
+        "errorBackground": "red",
+        "errorBorderColor": "red"
+      }
+    },
+    "NotificationsToolwindow.newNotification.background": "background",
+    "NotificationsToolwindow.newNotification.hoverBackground": "background",
+    "NotificationsToolwindow.Notification.hoverBackground": "background",
+    "Panel.background": "backgroundDim",
+    "ParameterInfo": {
+      "background": "background",
+      "foreground": "foregroundMuted",
+      "infoForeground": "blue",
+      "currentParameterForeground": "foreground"
+    },
+    "Plugins": {
+      "background": "backgroundDim",
+      "disabledForeground": "blue",
+      "hoverBackground": "background",
+      "lightSelectionBackground": "background",
+      "tagBackground": "background",
+      "tagForeground": "foreground",
+      "Button": {
+        "installForeground": "yellow",
+        "installBorderColor": "yellow",
+        "installFillForeground": "foreground",
+        "installFillBackground": "yellow",
+        "updateForeground": "foreground",
+        "updateBackground": "yellow",
+        "updateBorderColor": "yellow",
+        "installBackground": "backgroundDim",
+        "installFocusedBackground": "backgroundDim"
+      },
+      "SearchField": {
+        "background": "background",
+        "borderColor": "backgroundDim"
+      },
+      "SectionHeader.background": "background",
+      "Tab": {
+        "selectedForeground": "foregroundMuted",
+        "selectedBackground": "background",
+        "hoverBackground": "background"
+      },
+      "SectionHeader": {
+        "foreground": "foreground"
+      }
+    },
+    "Popup": {
+      "background": "backgroundDim",
+      "paintBorder": true,
+      "borderColor": "yellowAlpha50",
+      "inactiveBorderColor": "yellowAlpha50",
+      "Toolbar.borderColor": "yellowAlpha50",
+      "separatorForeground": "foreground",
+      "Header.activeBackground": "background",
+      "Header.inactiveBackground": "backgroundDim",
+      "Advertiser": {
+        "background": "background",
+        "foreground": "blue",
+        "borderColor": "yellowAlpha50",
+        "borderInsets": "3,8,5,0"
+      }
+    },
+    "PopupMenu": {
+      "background": "backgroundDim",
+      "borderWidth": 1,
+      "borderInsets": "8,1,8,1"
+    },
+    "ProgressBar": {
+      "trackColor": "backgroundDim",
+      "progressColor": "yellow",
+      "indeterminateStartColor": "yellow",
+      "indeterminateEndColor": "yellow",
+      "failedColor": "background",
+      "failedEndColor": "red",
+      "passedColor": "background",
+      "passedEndColor": "green"
+    },
+    "RunWidget": {
+      "foreground": "foreground",
+      "separatorColor": "foreground",
+      "background": "yellow"
+    },
+    "SearchEverywhere": {
+      "Advertiser.foreground": "blue",
+      "Header.background": "backgroundDim",
+      "SearchField": {
+        "background": "background",
+        "borderColor": "backgroundDim"
+      },
+      "Tab": {
+        "selectedForeground": "foregroundMuted",
+        "selectedBackground": "background"
+      }
+    },
+    "SearchMatch": {
+      "startBackground": "yellow",
+      "endBackground": "yellow"
+    },
+    "SidePanel.background": "backgroundDim",
+    "SpeedSearch": {
+      "foreground": "foregroundMuted",
+      "borderColor": "background",
+      "background": "background",
+      "errorForeground": "red"
+    },
+    "Settings.Spotlight.borderColor": "yellow",
+    "StatusBar.background": "background",
+    "TabbedPane": {
+      "underlineColor": "yellow",
+      "contentAreaColor": "background",
+      "hoverColor": "background",
+      "tabSelectionHeight": 2,
+      "focusColor": "background"
+    },
+    "Table": {
+      "background": "background",
+      "stripeColor": "background",
+      "selectionForeground": "foreground",
+      "foreground": "foregroundMuted",
+      "dropLineColor": "foregroundMuted",
+      "focusCellForeground": "foregroundMuted",
+      "gridColor": "blue",
+      "lightSelectionInactiveForeground": "foregroundMuted",
+      "lightSelectionForeground": "foregroundMuted",
+      "selectionBackground": "selectionBackground",
+      "selectionInactiveForeground": "foregroundMuted",
+      "lightSelectionBackground": "selectionBackground",
+      "lightSelectionInactiveBackground": "selectionInactiveBackground"
+    },
+    "Tag.background": "background",
+    "TextArea": {
+      "background": "background",
+      "selectionBackground": "selectionBackground"
+    },
+    "TextField": {
+      "background": "transparent",
+      "selectionBackground": "selectionBackground"
+    },
+    "ToggleButton": {
+      "onForeground": "foreground",
+      "onBackground": "yellow",
+      "offForeground": "foregroundMuted",
+      "offBackground": "background",
+      "borderColor": "background",
+      "buttonColor": "yellow"
+    },
+    "ToolTip": {
+      "background": "background"
+    },
+    "ToolWindow": {
+      "background": "backgroundDim",
+      "Button": {
+        "hoverBackground": "background",
+        "selectedBackground": "yellowAlpha50",
+        "selectedForeground": "foreground"
+      },
+      "Header": {
+        "background": "backgroundDim",
+        "inactiveBackground": "background"
+      },
+      "HeaderTab": {
+        "hoverBackground": "background",
+        "hoverInactiveBackground": "background",
+        "selectedBackground": "background",
+        "selectedInactiveBackground": "background",
+        "underlineColor": "yellow",
+        "underlineHeight": 2,
+        "underlinedTabBackground": "background",
+        "underlinedTabInactiveBackground": "backgroundDim"
+      }
+    },
+    "TitlePane": {
+      "infoForeground": "blue",
+      "inactiveInfoForeground": "blue"
+    },
+    "Tree": {
+      "selectionBackground": "background",
+      "modifiedItemForeground": "yellow",
+      "selectionInactiveForeground": "foreground",
+      "rowHeight": 20,
+      "selectionInactiveBackground": "selectionInactiveBackground",
+      "background": "backgroundDim"
+    },
+    "ValidationTooltip": {
+      "errorBackground": "red",
+      "errorBorderColor": "red",
+      "warningBackground": "yellow",
+      "warningBorderColor": "yellow"
+    },
+    "VersionControl": {
+      "Log.Commit": {
+        "currentBranchBackground": "background",
+        "hoveredBackground": "background",
+        "unmatchedForeground": "blue"
+      },
+      "RefLabel": {
+        "backgroundBrightness": 0.3,
+        "backgroundBase": "blue",
+        "foreground": "foregroundMuted"
+      },
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "background"
+        }
+      },
+      "GitLog": {
+        "headIconColor": "yellow",
+        "localBranchIconColor": "green",
+        "remoteBranchIconColor": "blue",
+        "tagIconColor": "red",
+        "otherIconColor": "green"
+      },
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "background"
+        }
+      }
+    },
+    "WelcomeScreen": {
+      "borderColor": "background",
+      "Projects": {
+        "actions.background": "background",
+        "selectionInactiveBackground": "background",
+        "background": "background",
+        "selectionBackground": "background"
+      },
+      "separatorColor": "background",
+      "SidePanel.background": "background",
+      "Details.background": "backgroundDim"
+    },
+    "CheckBoxMenuItem": {
+      "acceleratorSelectionForeground": "red"
+    },
+    "Separator.separatorColor": "background",
+    "Panel": {
+      "background": "backgroundDim"
+    },
+    "StatusBar": {
+      "background": "backgroundDim"
+    },
+    "Menu": {
+      "background": "backgroundDim"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": "foreground",
+      "Actions.Red": "red",
+      "Actions.Yellow": "yellow",
+      "Actions.Green": "green",
+      "Actions.Blue": "blue",
+      "Actions.Purple": "purple"
+    }
+  }
+}
+

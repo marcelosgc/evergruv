@@ -1,0 +1,26 @@
+<idea-plugin>
+  <!--
+   Unique plugin identifier. Keep unchanged across releases.
+  -->
+  <id>org.evergruv.jetbrains.theme</id>
+  <version>0.6.0-jetbrains.10</version>
+  <!-- Public plugin name. -->
+  <name>Evergruv</name>
+  <category>UI</category>
+  <!-- Plugin author. -->
+  <vendor>Marcelo Carvalho</vendor>
+  <idea-version since-build="142"/>
+  <!-- Description displayed in the IDE Plugin Manager. -->
+  <description>
+    JetBrains adaptation of the Evergruv VS Code color themes, based on Gruvbox Material Dark and Everforest Light from georglauterbach. All credits for the original color themes go to their creator.
+  </description>
+  <!-- Release notes. -->
+  <change-notes>
+  </change-notes>
+  <!-- Required IntelliJ Platform module. -->
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="EvergruvDark" path="/theme/EvergruvDark.theme.json"/>
+    <themeProvider id="EvergruvLight" path="/theme/EvergruvLight.theme.json"/>
+  </extensions>
+</idea-plugin>
