@@ -3,6 +3,7 @@
   "dark": true,
   "author": "georglauterbach (original VS Code theme); JetBrains port by Marcelo Carvalho",
   "editorScheme": "EvergruvDark.xml",
+  "parentTheme": "Islands Dark",
   "colors": {
     "transparent": "#000000",
     "backgroundDim": "#141617",
@@ -12,6 +13,7 @@
     "red": "#EA6962",
     "orange": "#E78A4E",
     "yellow": "#D8A657",
+    "yellowButton": "#896a38",
     "yellowAlpha50": "#D8A65780",
     "green": "#A9B665",
     "blue": "#7DAEA3",
@@ -20,8 +22,9 @@
     "selectionInactiveBackground": "#D8A65710"
   },
   "ui": {
+
     "*": {
-      "background": "backgroundDim",
+      "background": "background",
       "foreground": "foreground",
       "infoForeground": "blue",
       "selectionBackground": {
@@ -49,9 +52,17 @@
       "focusColor": "backgroundDim",
       "focusedBorderColor": "yellow",
       "separatorColor": "background",
-      "arc": "5",
+      "arc": "8",
       "underlineColor": "blue"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 10,
+      "borderWidth": 6,
+      "inactiveAlpha": 0.35,
+      "inactiveAlphaInStatusBar": 0.35
+    },
+    "Island.borderColor": "00000000" ,
     "ActionButton": {
       "hoverBackground": "background",
       "hoverBorderColor": "background",
@@ -66,33 +77,33 @@
     },
     "BookmarkMnemonicAvailable": {
       "borderColor": "background",
-      "foreground": "foregroundMuted",
+      "foreground": "foreground",
       "background": "background"
     },
     "BookmarkMnemonicCurrent": {
       "borderColor": "yellow",
-      "foreground": "foregroundMuted",
+      "foreground": "foreground",
       "background": "background"
     },
     "BookmarkMnemonicIcon": {
-      "foreground": "foregroundMuted",
+      "foreground": "foreground",
       "background": "background",
       "borderColor": "yellow"
     },
     "Button": {
-      "foreground": "foregroundMuted",
+      "foreground": "foreground",
       "startBackground": "background",
       "endBackground": "background",
       "startBorderColor": "yellowAlpha50",
       "endBorderColor": "yellowAlpha50",
       "shadowColor": "backgroundDim",
-      "focusedBorderColor": "foregroundMuted",
+      "focusedBorderColor": "foreground",
       "default": {
         "foreground": "foreground",
-        "startBackground": "yellow",
-        "endBackground": "yellow",
-        "startBorderColor": "yellow",
-        "endBorderColor": "yellow",
+        "startBackground": "yellowButton",
+        "endBackground": "yellowButton",
+        "startBorderColor": "yellowButton",
+        "endBorderColor": "yellowButton",
         "focusedBorderColor": "blue",
         "focusColor": "yellow"
       }
@@ -106,7 +117,7 @@
       "background": "background",
       "selectionBackground": "selectionBackground",
       "ArrowButton": {
-        "iconColor": "foregroundMuted",
+        "iconColor": "foreground",
         "disabledIconColor": "foregroundMuted",
         "nonEditableBackground": "background",
         "background": "background"
@@ -114,17 +125,17 @@
       "modifiedItemForeground": "red"
     },
     "CompletionPopup": {
-      "background": "backgroundDim",
+      "background": "background",
       "selectionBackground": "selectionBackground",
       "matchForeground": "yellow",
       "selectionInactiveBackground": "selectionInactiveBackground"
     },
     "ComplexPopup": {
       "Header": {
-        "background": "backgroundDim"
+        "background": "background"
       }
     },
-    "Component": {
+    "Component":  {
       "errorFocusColor": "red",
       "inactiveErrorFocusColor": "background",
       "warningFocusColor": "yellow",
@@ -137,7 +148,7 @@
     },
     "Counter": {
       "background": "background",
-      "foreground": "foregroundMuted"
+      "foreground": "foreground"
     },
     "DefaultTabs": {
       "underlineColor": "yellow",
@@ -145,7 +156,7 @@
       "hoverBackground": "background"
     },
     "DragAndDrop": {
-      "areaForeground": "foregroundMuted",
+      "areaForeground": "foreground",
       "areaBackground": "background",
       "areaBorderColor": "background"
     },
@@ -164,21 +175,23 @@
     "EditorTabs": {
       "underlinedTabBackground": "background",
       "background": "background",
-      "underlineColor": "red",
-      "underlineHeight": 2
+      "underlineColor": "yellow",
+      "underlineHeight": 2,
+      "underlinedBorderColor": "yellow",
+      "inactiveUnderlinedTabBorderColor": "yellowAlpha50"
     },
     "FileColor": {
-      "Yellow": "yellow",
-      "Green": "green",
-      "Blue": "blue",
-      "Violet": "purple",
-      "Orange": "orange",
-      "Rose": "red"
+      "Yellow": "#594524",
+      "Green": "#434828",
+      "Blue": "#2d3f39",
+      "Violet": "#482e35",
+      "Orange": "#462b18",
+      "Rose": "#4f2422"
     },
     "GotItTooltip": {
-      "foreground": "foregroundMuted",
+      "foreground": "foreground",
       "background": "background",
-      "borderColor": "foregroundMuted",
+      "borderColor": "foreground",
       "linkForeground": "blue",
       "shortcutForeground": "blue"
     },
@@ -219,33 +232,33 @@
     },
     "Notification": {
       "background": "background",
-      "borderColor": "foregroundMuted",
-      "errorForeground": "foregroundMuted",
+      "borderColor": "foreground",
+      "errorForeground": "foreground",
       "errorBackground": "background",
       "errorBorderColor": "red",
       "MoreButton": {
         "background": "background",
-        "innerBorderColor": "foregroundMuted"
+        "innerBorderColor": "foreground"
       },
       "ToolWindow": {
-        "informativeForeground": "foregroundMuted",
-        "informativeBackground": "background",
-        "informativeBorderColor": "yellowAlpha50",
-        "warningForeground": "foregroundMuted",
-        "warningBackground": "red",
-        "warningBorderColor": "red",
-        "errorForeground": "foregroundMuted",
-        "errorBackground": "red",
+        "informativeForeground": "foreground",
+        "informativeBackground": "backgroundDim",
+        "informativeBorderColor": "green",
+        "warningForeground": "foreground",
+        "warningBackground": "backgroundDim",
+        "warningBorderColor": "orange",
+        "errorForeground": "foreground",
+        "errorBackground": "backgroundDim",
         "errorBorderColor": "red"
       }
     },
     "NotificationsToolwindow.newNotification.background": "background",
     "NotificationsToolwindow.newNotification.hoverBackground": "background",
     "NotificationsToolwindow.Notification.hoverBackground": "background",
-    "Panel.background": "backgroundDim",
+    "Panel.background": "background",
     "ParameterInfo": {
       "background": "background",
-      "foreground": "foregroundMuted",
+      "foreground": "foreground",
       "infoForeground": "blue",
       "currentParameterForeground": "foreground"
     },
@@ -257,13 +270,13 @@
       "tagBackground": "background",
       "tagForeground": "foreground",
       "Button": {
-        "installForeground": "yellow",
-        "installBorderColor": "yellow",
+        "installForeground": "yellowButton",
+        "installBorderColor": "yellowButton",
         "installFillForeground": "foreground",
-        "installFillBackground": "yellow",
+        "installFillBackground": "yellowButton",
         "updateForeground": "foreground",
-        "updateBackground": "yellow",
-        "updateBorderColor": "yellow",
+        "updateBackground": "yellowButton",
+        "updateBorderColor": "yellowButton",
         "installBackground": "backgroundDim",
         "installFocusedBackground": "backgroundDim"
       },
@@ -273,7 +286,7 @@
       },
       "SectionHeader.background": "background",
       "Tab": {
-        "selectedForeground": "foregroundMuted",
+        "selectedForeground": "foreground",
         "selectedBackground": "background",
         "hoverBackground": "background"
       },
@@ -282,14 +295,14 @@
       }
     },
     "Popup": {
-      "background": "backgroundDim",
+      "background": "background",
       "paintBorder": true,
       "borderColor": "yellowAlpha50",
       "inactiveBorderColor": "yellowAlpha50",
       "Toolbar.borderColor": "yellowAlpha50",
       "separatorForeground": "foreground",
       "Header.activeBackground": "background",
-      "Header.inactiveBackground": "backgroundDim",
+      "Header.inactiveBackground": "background",
       "Advertiser": {
         "background": "background",
         "foreground": "blue",
@@ -298,15 +311,15 @@
       }
     },
     "PopupMenu": {
-      "background": "backgroundDim",
+      "background": "background",
       "borderWidth": 1,
       "borderInsets": "8,1,8,1"
     },
     "ProgressBar": {
       "trackColor": "backgroundDim",
       "progressColor": "yellow",
-      "indeterminateStartColor": "yellow",
-      "indeterminateEndColor": "yellow",
+      "indeterminateStartColor": "orange",
+      "indeterminateEndColor": "orange",
       "failedColor": "background",
       "failedEndColor": "red",
       "passedColor": "background",
@@ -325,7 +338,7 @@
         "borderColor": "backgroundDim"
       },
       "Tab": {
-        "selectedForeground": "foregroundMuted",
+        "selectedForeground": "foreground",
         "selectedBackground": "background"
       }
     },
@@ -335,7 +348,7 @@
     },
     "SidePanel.background": "backgroundDim",
     "SpeedSearch": {
-      "foreground": "foregroundMuted",
+      "foreground": "foreground",
       "borderColor": "background",
       "background": "background",
       "errorForeground": "red"
@@ -357,10 +370,10 @@
       "dropLineColor": "foregroundMuted",
       "focusCellForeground": "foregroundMuted",
       "gridColor": "blue",
-      "lightSelectionInactiveForeground": "foregroundMuted",
-      "lightSelectionForeground": "foregroundMuted",
+      "lightSelectionInactiveForeground": "foreground",
+      "lightSelectionForeground": "foreground",
       "selectionBackground": "selectionBackground",
-      "selectionInactiveForeground": "foregroundMuted",
+      "selectionInactiveForeground": "foreground",
       "lightSelectionBackground": "selectionBackground",
       "lightSelectionInactiveBackground": "selectionInactiveBackground"
     },
@@ -375,25 +388,29 @@
     },
     "ToggleButton": {
       "onForeground": "foreground",
-      "onBackground": "yellow",
-      "offForeground": "foregroundMuted",
+      "onBackground": "yellowButton",
+      "offForeground": "foreground",
       "offBackground": "background",
       "borderColor": "background",
-      "buttonColor": "yellow"
+      "buttonColor": "yellowButton"
     },
     "ToolTip": {
       "background": "background"
     },
     "ToolWindow": {
-      "background": "backgroundDim",
+      "background": "background",
+
       "Button": {
         "hoverBackground": "background",
         "selectedBackground": "yellowAlpha50",
         "selectedForeground": "foreground"
       },
       "Header": {
-        "background": "backgroundDim",
-        "inactiveBackground": "background"
+        "background": "background",
+        "inactiveBackground": "background",
+        "borderColor": "backgroundDim",
+        "border": "1,1,1,1,141617"
+
       },
       "HeaderTab": {
         "hoverBackground": "background",
@@ -411,12 +428,12 @@
       "inactiveInfoForeground": "blue"
     },
     "Tree": {
-      "selectionBackground": "background",
+      "selectionBackground": "selectionBackground",
       "modifiedItemForeground": "yellow",
       "selectionInactiveForeground": "foreground",
       "rowHeight": 20,
       "selectionInactiveBackground": "selectionInactiveBackground",
-      "background": "backgroundDim"
+      "background": "background"
     },
     "ValidationTooltip": {
       "errorBackground": "red",
@@ -433,7 +450,7 @@
       "RefLabel": {
         "backgroundBrightness": 0.3,
         "backgroundBase": "blue",
-        "foreground": "foregroundMuted"
+        "foreground": "foreground"
       },
       "FileHistory": {
         "Commit": {
@@ -470,14 +487,18 @@
     },
     "Separator.separatorColor": "background",
     "Panel": {
-      "background": "backgroundDim"
+      "background": "background"
     },
     "StatusBar": {
-      "background": "backgroundDim"
+      "background": "background"
     },
     "Menu": {
-      "background": "backgroundDim"
-    }
+      "background": "background"
+    },
+    "StatusBar.borderColor": "#00000000",
+    "ToolWindow.Stripe.borderColor": "#00000000",
+    "MainToolbar.borderColor": "#00000000",
+    "MainWindow.background": "backgroundDim"
   },
   "icons": {
     "ColorPalette": {

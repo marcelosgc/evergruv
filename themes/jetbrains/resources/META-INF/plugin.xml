@@ -3,7 +3,7 @@
    Unique plugin identifier. Keep unchanged across releases.
   -->
   <id>org.evergruv.jetbrains.theme</id>
-  <version>0.6.0-jetbrains.10</version>
+  <version>0.6.0-jetbrains.11</version>
   <!-- Public plugin name. -->
   <name>Evergruv</name>
   <category>UI</category>
@@ -16,6 +16,14 @@
   </description>
   <!-- Release notes. -->
   <change-notes>
+    <![CDATA[
+      <ul>
+        <li>Synced Evergruv Light with recent UI keys and color refinements from Evergruv Dark.</li>
+        <li>Added 1 px backgroundDim borders to tool window headers in both themes.</li>
+        <li>Island compatible</li>
+        <li>Updated some colors to make more readable</li>
+      </ul>
+    ]]>
   </change-notes>
   <!-- Required IntelliJ Platform module. -->
   <depends>com.intellij.modules.platform</depends>

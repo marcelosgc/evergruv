@@ -24,7 +24,7 @@
     <option name="DIAGRAM_REALIZATION_EDGE" value="a9b665" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1d2021" />
     <option name="DOCUMENTATION_COLOR" value="1d2021" />
-    <option name="ERROR_HINT" value="ea6962" />
+    <option name="ERROR_HINT" value="803232" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="7daea3" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
     <option name="GUTTER_BACKGROUND" value="1d2021" />
@@ -44,8 +44,8 @@
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="928374" />
     <option name="LOOKUP_COLOR" value="1d2021" />
     <option name="METHOD_SEPARATORS_COLOR" value="1d2021" />
-    <option name="MODIFIED_LINES_COLOR" value="ea6962" />
-    <option name="QUESTION_HINT" value="7daea3" />
+    <option name="MODIFIED_LINES_COLOR" value="d8a657" />
+    <option name="QUESTION_HINT" value="2a554a" />
     <option name="RECENT_LOCATIONS_SELECTION" value="ddc7a120" />
     <option name="RIGHT_MARGIN_COLOR" value="928374" />
     <option name="ScrollBar.background" value="1d2021" />
@@ -62,21 +62,21 @@
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="7daea3" />
     <option name="BLOCK_TERMINAL_PROMPT_SEPARATOR_COLOR" value="1d2021" />
     <option name="FILESTATUS_ADDED" value="a9b665" />
-    <option name="FILESTATUS_DELETED" value="a9b665" />
+    <option name="FILESTATUS_DELETED" value="ea6962" />
     <option name="FILESTATUS_HIJACKED" value="d8a657" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="a9b665" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ea6962" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ea6962" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ea6962" />
-    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="ea6962" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="E78A4E" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="E78A4E" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="E78A4E" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="E78A4E" />
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="E78A4E" />
     <option name="FILESTATUS_MERGED" value="a9b665" />
     <option name="FILESTATUS_MODIFIED" value="7daea3" />
     <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="7daea3" />
     <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="7daea3" />
     <option name="FILESTATUS_OBSOLETE" value="ea6962" />
-    <option name="FILESTATUS_SUPPRESSED" value="a9b665" />
+    <option name="FILESTATUS_SUPPRESSED" value="d8a657" />
     <option name="FILESTATUS_SWITCHED" value="ea6962" />
-    <option name="FILESTATUS_UNKNOWN" value="a9b665" />
+    <option name="FILESTATUS_UNKNOWN" value="E78A4E" />
     <option name="FILESTATUS_addedOutside" value="a9b665" />
     <option name="FILESTATUS_changelistConflict" value="ea6962" />
     <option name="FILESTATUS_modifiedOutside" value="a9b665" />
@@ -102,7 +102,7 @@
     </option>
     <option name="BAD_CHARACTER">
       <value>
-        <option name="BACKGROUND" value="ea6962" />
+        <option name="BACKGROUND" value="803232" />
       </value>
     </option>
     <option name="BASH.BINARY_DATA">
@@ -179,7 +179,7 @@
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="ea6962" />
+        <option name="BACKGROUND" value="4A2421FF" />
       </value>
     </option>
     <option name="BUILDOUT.KEY">
@@ -593,7 +593,7 @@
     </option>
     <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
       <value>
-        <option name="FOREGROUND" value="ea6962" />
+        <option name="FOREGROUND" value="E78A4E" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -748,7 +748,7 @@
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="ea6962" />
+        <option name="BACKGROUND" value="803232" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -859,8 +859,7 @@
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="7daea3" />
-        <option name="FOREGROUND" value="141617" />
+        <option name="BACKGROUND" value="6B4C1BFF" />
       </value>
     </option>
     <option name="FIRST SYMBOL IN LIST">
@@ -885,7 +884,7 @@
     </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
-        <option name="EFFECT_COLOR" value="ea6962" />
+        <option name="EFFECT_COLOR" value="803232" />
         <option name="ERROR_STRIPE_COLOR" value="ea6962" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
@@ -1338,7 +1337,7 @@
     </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="ea6962" />
+        <option name="EFFECT_COLOR" value="d8a657" />
       </value>
     </option>
     <option name="LOCALE.MSGCTXT_KEYWORD">
@@ -1507,7 +1506,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="7daea3" />
+        <option name="BACKGROUND" value="64702e" />
       </value>
     </option>
     <option name="MESSAGE_ARGUMENT">
@@ -2162,7 +2161,7 @@
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ea6962" />
+        <option name="FOREGROUND" value="d8a657" />
       </value>
     </option>
     <option name="TEXT">
